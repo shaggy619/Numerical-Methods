@@ -9,7 +9,7 @@ int main()
 	float f0,f1,f2;
 	int i=0;
 	system("cls");
-	printf("enter the values of two initial guess:\n");
+	printf("Enter the values of two initial guess:\n");
 	scanf("%f%f",&x0,&x1);
 	do
 	{
@@ -26,8 +26,8 @@ int main()
 			x0=x2;
 		}
 		i++;
-		printf("no of iterations=%d",i);
-		printf("\n root is %f",x2);
+		printf("Number of iterations = %d",i);
+		printf("\n The root is %f",x2);
 	}
 	while(fabs(f2)>e);
 	getch();
